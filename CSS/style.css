@@ -1,0 +1,1682 @@
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url(../fonts/OpenSans-Regular.woff);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url(../fonts/OpenSans-Bold.woff);
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #cccccc;
+
+	position: relative;
+}
+
+.header::after {
+	content: "";
+	background-color: #0a0e34;
+	opacity: 0.9;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	z-index: 1;
+}
+
+.container { 
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+.logo-box {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.logo-link {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+  
+.logo {
+	fill: #ffffff;
+}
+
+.box__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	display: block;
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.title:nth-child(2n) {
+	align-self: flex-end;
+}
+
+.download {
+	display: block;
+	background-color: #5e42b0;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+ 	
+}
+	
+.name-regular {
+	font-family: OpenSans-Regular;
+	display: block;
+}
+
+.name-bold {
+	font-family: OpenSans-Bold;
+	display: block;
+}
+
+.logo-download {
+	position: absolute;
+	fill: #ffffff;
+}
+
+/*Основной блол*/
+.main-box {
+	box-sizing: border-box;
+}
+
+.athlets-header {
+	background-color: #ffffff;
+}
+
+.athlets-title {
+	display: block;
+	font-family: OpenSans-Bold;
+	color: #e7e7e7;
+	text-transform: uppercase;
+}
+
+.conection-header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.conection-number {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	text-align: center;
+
+	position: relative;
+}
+
+.conection-number::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	border-radius: 1.5px;
+	background-color: #5e42b0;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.con-header {
+	box-sizing: border-box;
+}
+
+.conection-title {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	color: #c1c1c1;
+}
+
+.conection-text {
+	font-family: OpenSans-Regular;
+}
+
+.collaboration-box {
+	background-color: #f5f4f9;
+}
+
+.growth-box {
+	background-color: #5e42b0;
+}
+
+.growth-number {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	text-align: center;
+
+	position: relative;
+}
+	
+.growth-number::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	border-radius: 1.5px;
+	background-color: #ffffff;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.growth-text {
+		color: #ffffff;
+}
+
+.players-header {
+	background-color: #ffffff;
+}
+
+.players-title {
+	display: block;
+	font-family: OpenSans-Bold;
+	color: #e7e7e7;
+	text-transform: uppercase;
+}
+
+.players-conection-header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.players-conection-number {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	text-align: center;
+
+	position: relative;
+}
+
+.players-conection-number::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	border-radius: 1.5px;
+	background-color: #5e42b0;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.players-con-header {
+	box-sizing: border-box;
+}
+
+.players-conection-title {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	color: #c1c1c1;
+}
+
+.players-conection-text {
+	font-family: OpenSans-Regular;
+}
+
+.players-collaboration-box {
+	background-color: #f5f4f9;
+}
+
+.players-growth-box {
+	background-color: #090c35;
+}
+
+.players-growth-number {
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8765dd;
+
+	position: relative;
+}
+	
+.players-growth-number::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	border-radius: 1.5px;
+	background-color: #ffffff;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.players-growth-text {
+	color: #ffffff;
+}
+
+.active {
+	width: 100%;
+	position: relative;
+}
+
+.active-number {
+	position: absolute;
+}
+
+.number {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #5e42b0;
+}
+
+.number-text {
+	padding-bottom: 5px;
+	
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f5f6f7;
+
+	position: relative;
+}
+
+.number-text::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1em;
+	height: 5px;
+	border-radius: 1.5px;
+	background-color: #8f7bc8;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.active-title {
+	font-family: OpenSans-Bold;
+	color: #e7e7e7;
+	text-transform: uppercase;
+}
+
+.active-text {
+	font-family: OpenSans-Regular;
+}
+
+/*Подвал сайта*/
+.footer {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #cccccc;
+	position: relative;
+}
+
+.footer::after {
+	content: "";
+	background-color: #0a0e34;
+	opacity: 0.9;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	z-index: 1;
+}  
+
+.footer-container { 
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+		
+	z-index: 2;
+}
+
+.box-app {
+	display: flex;
+}
+
+.logos {
+	display:block;
+	box-sizing: border-box;
+	background-color: #5e42b0;
+	border-radius: 20px;
+	position: relative;
+}
+
+.logo-app {
+	position: absolute;
+	fill: #ffffff;
+}
+
+.link-app-text {
+	display: block;	
+	text-decoration: none;
+}
+
+.name-app, .text-app {
+	display: block;	
+	text-transform: uppercase;
+}
+	
+.name-app {		
+	font-family: OpenSans-Bold;
+	color: #ffffff;
+}
+
+.text-app {	
+	font-family: OpenSans-Regular;
+	color: #9b8ec1;
+}
+  
+ @media (max-width: 640px) {
+/*Шапка сайта*/  
+	.header {
+		background-image: url(../IMG/football_1920.jpg);
+	}  
+
+	.container { 
+		box-sizing: border-box;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	
+		padding-top: 30px;
+		padding-bottom: 82px;
+	}
+  
+	.logo-box {
+		width: 134px;
+	}
+
+	.box__title {
+		margin-top: 136px;
+		width: 100%;
+	}	
+
+	.title {
+		font-size: 28px;
+		box-sizing: border-box;
+		width: 80%
+	}
+
+	.box-download {
+		margin-top: 85px;
+		width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.download {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-radius: 17px;
+	
+		font-size: 8px;
+		padding-left: 39%;	
+	}
+
+	.download:nth-child(2n) {
+		margin-top: 12px;
+	}
+
+	.logo-download {	
+		left: 30%;
+		top: calc(50% - 10px);
+	
+		width: 20px;
+		height: 20px;
+	}
+	/*Основной блол*/
+		.main-box {
+		width: 100%;
+	}
+	
+	.athlets {
+		position: relative;
+
+	}
+	
+	.athlets-images {
+		position: absolute;
+		top: 100px;
+		left: calc(50% - 96px); 
+	}
+	
+	.athlets-image {
+		width: 192px;
+	}
+
+	.athlets-header {
+		padding-top: 20px;
+		padding-bottom: 240px;
+	}
+
+	.athlets-title {
+		padding-left: 20px;
+		font-size: 50px;		
+	}
+
+	.conection-box {
+		background-color: #fafafa;
+		padding-top: 80px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.conection-number {
+		width: 17px;	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 14px;
+	}
+
+	.con-header {
+		box-sizing: border-box;
+		width: calc(100% - 27px);
+	}
+
+	.conection-title {
+		font-size: 23px;
+	}
+
+	.conection-text {
+		margin-top: 30px;
+	
+		font-size: 15px;
+	}
+
+	.collaboration-box {
+		padding-top: 58px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.growth-box {
+		padding-top: 58px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.growth-number {
+		width: 17px;	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 14px;
+	}
+	
+	.players {
+		position: relative;
+	}
+	
+	.players-images {
+		position: absolute;
+		top: 100px;
+		left: calc(50% - 151px) ; 
+	}
+
+	.players-image {
+		width: 302px;
+	}
+
+	.players-header {
+		padding-top: 20px;
+		padding-bottom: 235px;
+	}
+
+	.players-title {
+		padding-left: 20px;
+		font-size: 50px;		
+	}
+
+	.players-conection-box {
+		background-color: #fafafa;
+		padding-top: 80px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.players-conection-number {
+		width: 17px;	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 14px;
+	}
+
+	.players-con-header {
+		box-sizing: border-box;
+		width: calc(100% - 27px);
+	}
+
+	.players-conection-title {
+		font-size: 23px;
+	}
+
+	.players-conection-text {
+		margin-top: 30px;
+	
+		font-size: 15px;
+	}
+
+	.players-collaboration-box {
+		padding-top: 58px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.players-growth-box {
+		padding-top: 58px;
+		padding-bottom: 55px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.players-growth-number {
+		width: 17px;	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 14px;
+	}
+
+	.active-images {
+		width: 100%;
+	}
+
+	.active-image {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.active-number {
+		left: 6.25%;
+		top: calc(65% - 35px);
+		z-index: 1;
+	}
+
+	.number {
+		width: 70px;
+		height: 70px;
+	}
+
+	.number-text {
+		font-size: 14px;
+	}
+
+	.active-information {
+		box-sizing: border-box;
+		width: 100%;
+	
+		padding-left: 6.25%;
+		padding-right: 6.25%;
+	}
+
+	.active-header {
+		margin-top: 37px;
+	}
+	
+	.active-title {
+		font-size: 28px;
+	}
+	
+	.active-text{
+		margin-top: 20px;
+		margin-bottom: 65px;
+		font-size: 16px;
+	}
+	
+	/*Подвал*/
+	.footer {
+		background-image: url(../IMG/game_1920.jpg);
+	}	
+	
+	.footer-container {
+		width: 88%;
+		padding-top: 100px;
+		padding-bottom: 12px;
+	}
+	
+	.box-app {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.logos {
+		width: 72px;
+		height: 72px;
+		margin-bottom: 55px;
+	}
+	
+	.logo-app {
+		top: calc(50% - 25px);
+		left: calc(50% - 25px);
+	
+		width: 55px;
+	}
+	
+	.link-app-text {
+		text-align: center;
+	}
+	
+	.name-app {
+		font-size: 32px;
+	}
+	
+	.text-app {
+		font-size: 14px;
+	}	
+	
+	.footer__logo-box {
+		margin-top: 75px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+	/*Шапка сайта*/  
+	.header {
+		background-image: url(../IMG/football_767.jpg);
+	}
+
+	.container { 
+		width: 88%;	
+		padding-top: 30px;
+		padding-bottom: 82px;
+	}
+  
+	.logo-box {
+		width: 205px;
+	}
+
+	.box__title {
+		margin-top: 165px;
+		width: 100%;
+	}	
+
+	.title {
+		width: 70%;
+		font-size: 64px;
+	}
+
+	.box-download {
+		display: flex;
+		margin-top: 305px;
+		width: 656px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.download {
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-radius: 50px;
+		box-sizing: border-box;
+		width: calc(100%/2 - 30px);
+	
+		font-size: 14px;
+		padding-left: 15%;	
+	}
+
+	.download:nth-child(2n) {
+		margin-left: 30px;
+	}
+
+	.logo-download {	
+		left: 10%;
+		top: calc(50% - 20px);
+	
+		width: 40px;
+		height: 40px;
+	}
+	/*Основной блол*/
+	.main-box {
+		width: 100%;		
+	}
+	
+	.athlets {
+		position: relative;
+
+	}
+	
+	.athlets-images {
+		position: absolute;
+		top: 13%;
+		left: -20%; 
+	}
+	
+	.athlets-image {
+		width: 497px;
+	}
+
+	.athlets-header {
+		padding-right: 30px;
+		padding-top: 80px;
+		padding-bottom: 10px;
+		padding-left: 44%;
+	}
+
+	.athlets-title {
+		font-size: 80px;
+	}
+	
+	.conection-box {
+		padding-top: 10px;
+		padding-bottom: 40px;
+	
+		padding-left: 44%;
+		padding-right: 30px;
+	}
+
+	.conection-number {	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+
+	.con-header {
+		box-sizing: border-box;
+	}
+
+	.conection-title {
+		font-size: 32px;
+	}
+
+	.conection-text {
+		margin-top: 30px;
+	
+		font-size: 16px;
+	}
+
+	.collaboration-box {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	
+		padding-left: 44%;
+		padding-right: 30px;
+	}
+
+	.growth-box {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	
+		padding-left: 44%;
+		padding-right: 30px;
+	}
+
+	.growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}		
+
+	.players {
+		position: relative;
+	}
+	
+	.players-images {
+		position: absolute;
+		top: 5%;
+		left: 35%; 
+	}
+	
+	.players-image {
+		width: 500px;
+	}
+
+	.players-header {
+		padding-right: 44%;
+		padding-top: 80px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+	}
+
+	.players-title {
+		font-size: 80px;
+	}
+	
+	.players-conection-box {
+		padding-top: 10px;
+		padding-bottom: 40px;
+	
+		padding-left: 30px;
+		padding-right: 44%;
+	}
+
+	.players-conection-header {
+		width: 100%;
+	}
+
+	.players-conection-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+		font-size: 18px;
+	}
+
+	.players-con-header {
+		box-sizing: border-box;
+	}
+
+	.players-conection-title {
+		font-size: 32px;
+	}
+
+	.players-conection-text {
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+	.players-collaboration-box {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	
+		padding-left: 30px;
+		padding-right: 44%;
+	}
+
+	.players-growth-box {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	
+		padding-left: 30px;
+		padding-right: 44%;
+	}
+
+	.players-growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+
+	.active-images {
+		width: 100%;
+	}
+
+	.active-image {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.active-number {
+		left: 6.25%;
+		top: calc(67% - 35px);;
+		z-index: 1;
+	}
+
+	.number {
+		width: 105px;
+		height: 105px;
+	}
+
+	.number-text {
+		font-size: 24px;
+	}
+
+	.active-information {
+		box-sizing: border-box;
+		width: 100%;
+	
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.active-header {
+		margin-top: 85px;
+	}
+	
+	.active-title {
+		font-size: 80px;
+	}
+	
+	.active-text{
+		margin-top: 240x;
+		margin-bottom: 95px;
+		font-size: 24px;
+	}	
+	
+	/*Подвал*/	
+	.footer {
+		background-image: url(../IMG/game_767.jpg);
+	}	
+	
+	.footer-container {
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 12px;
+	}
+	
+	.box-app {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.logos {
+		width: 135px;
+		height: 135px;
+		margin-bottom: 75px;
+	}
+	
+	.logo-app {
+		top: calc(50% - 45px);
+		left: calc(50% - 45px);
+	
+		width: 90px;
+		height: 90px;
+	}
+
+	.link-app-text {
+		text-align: center;
+	}
+	
+	.name-app {
+		font-size: 80px;
+	}
+	
+	.text-app {
+		font-size: 36px;
+	}	
+	
+	.footer__logo-box {	
+		margin-top: 50px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+/*Шапка сайта*/  
+	.header {
+		background-image: url(../IMG/football_1280.jpg);
+	}
+
+	.container { 
+		padding-top: 40px;
+		padding-bottom: 100px;
+		padding-left: 195px;
+		padding-right: 195px;
+	}
+  
+	.logo-box {
+		width: 191px;
+	}
+
+	.box__title {
+		margin-top: 288px;
+		width: 100%;
+	}	
+
+	.title {
+		font-size: 90px;
+	}
+
+	.box-download {
+		display: flex;
+		margin-top: 285px;
+		width: 672px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.download {
+		display: block;
+		box-sizing: border-box;
+		width: 300px;
+		border-radius: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	
+		font-size: 14px;
+		padding-left: 100px;	
+	}
+
+	.download:nth-child(2n) {
+		margin-left: 40px;
+	}
+	
+	.logo-download {	
+		left: 10%;
+		top: calc(50% - 25px);
+	
+		width: 50px;
+		height: 50px;
+	}
+	/*Основной блол*/
+	.main-box {
+		width: 100%;		
+	}
+	
+	.athlets {
+		position: relative;
+	}
+	
+	.athlets-images {
+		position: absolute;
+		top: 20px;
+		left: 15%; 
+		z-index: 1;
+	}
+	
+	.athlets-image {
+		width: 590px;
+	}
+
+	.athlets-header {
+		padding-right: 180px;
+		padding-top: 100px;
+		padding-bottom: 10px;
+		padding-left: 50%;
+	}
+
+	.athlets-title {
+		font-size: 80px;
+	}
+	
+	.conection-box {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 30px;
+	}
+
+	.conection-number {	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+
+	.con-header {
+		box-sizing: border-box;
+	}
+
+	.conection-title {
+		font-size: 36px;
+	}
+
+	.conection-text {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+	.collaboration-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 180px;
+	}
+
+	.growth-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 180px;
+	}
+
+	.growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}		
+
+	.players {
+		position: relative;
+	}
+	
+	.players-images {
+		position: absolute;
+		top: 6px;
+		left: 45%; 
+	}
+	
+	.players-image {
+		width: 991px;
+	}
+
+	.players-header {
+		padding-right: 50%;
+		padding-top: 100px;
+		padding-bottom: 10px;
+		padding-left: 180px;
+	}
+
+	.players-title {
+		font-size: 80px;
+	}
+	
+	.players-conection-box {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-conection-header {
+		width: 100%;
+	}
+
+	.players-conection-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+		font-size: 18px;
+	}
+
+	.players-con-header {
+		box-sizing: border-box;
+	}
+
+	.players-conection-title {
+		font-size: 36px;
+	}
+
+	.players-conection-text {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+	.players-collaboration-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-growth-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+		
+	.active {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.find-box {
+		order: 1;
+	}
+	
+	.active-image {
+		box-sizing: border-box;
+		width: 960px;
+	}
+
+	.active-number {
+		left: calc(50% - 82px);
+		top: calc(50% - 82px);
+		z-index: 1;
+	}
+	
+	.number {
+		width: 165px;
+		height: 165px;
+	}
+
+	.number-text {
+		font-size: 24px;
+	}
+
+	.active-information {
+		box-sizing: border-box;
+		width: 100%;
+	
+		padding-top: 80px;
+		padding-left: 130px;
+		padding-right: 130px;
+	}
+	
+	.active-title {
+		font-size: 80px;
+	}
+	
+	.active-text{
+		margin-top: 50px;
+		font-size: 24px;
+	}	
+	
+	/*Подвал*/
+	.footer {
+		background-image: url(../IMG/game_1280.jpg);
+	}	
+	
+	.footer-container {
+		width: 88%;
+		padding-top: 220px;
+		padding-bottom: 50px;
+	}
+	
+	.box-app {
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+		width: 870px;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.logos {
+		width: 135px;
+		height: 135px;
+	}
+	
+	.logo-app {
+		top: calc(50% - 45px);
+		left: calc(50% - 45px);
+	
+		width: 90px;
+		height: 90px;
+	}
+
+	.link-app-text {
+		box-sizing: border-box;
+		width: 675px;
+	}
+	
+	.name-app {
+		font-size: 80px;
+	}
+	
+	.text-app {
+		font-size: 30px;
+	}	
+
+	.footer__logo-box {	
+		margin-top: 75px;
+	}
+}
+
+@media (min-width: 1921px) {
+/*Шапка сайта*/  
+	.header {
+		background-image: url(../IMG/football_1920.jpg);
+	}
+
+	.container { 
+		padding-top: 40px;
+		padding-bottom: 100px;
+		padding-left: 195px;
+		padding-right: 195px;
+	}
+  
+	.logo-box {
+		width: 191px;
+	}
+
+	.box__title {
+		display: block;
+		text-align: center;
+		margin-top: 300px;
+		width: 100%;
+	}	
+
+	.title {
+		font-size: 90px;
+	}
+
+	.box-download {
+		display: flex;
+		margin-top: 500px;
+		width: 645px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.download {
+		display: block;
+		box-sizing: border-box;
+		width: 500px;
+		border-radius: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	
+		font-size: 14px;
+		padding-left: 100px;	
+	}
+
+	.download:nth-child(2n) {
+		margin-left: 40px;
+	}
+	
+	.logo-download {	
+		left: 10%;
+		top: calc(50% - 25px);
+	
+		width: 50px;
+		height: 50px;
+	}
+	/*Основной блол*/
+	.main-box {
+		width: 100%;		
+	}
+	
+	.athlets {
+		position: relative;
+	}
+	
+	.athlets-images {
+		position: absolute;
+		top: 20px;
+		left: 15%; 
+		z-index: 1;
+	}
+	
+	.athlets-image {
+		width: 590px;
+	}
+
+	.athlets-header {
+		padding-right: 180px;
+		padding-top: 100px;
+		padding-bottom: 10px;
+		padding-left: 50%;
+	}
+
+	.athlets-title {
+		font-size: 80px;
+	}
+	
+	.conection-box {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 30px;
+	}
+
+	.conection-number {	
+		margin-right: 10px;
+	
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+
+	.con-header {
+		box-sizing: border-box;
+	}
+
+	.conection-title {
+		font-size: 36px;
+	}
+
+	.conection-text {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+	.collaboration-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 180px;
+	}
+
+	.growth-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 50%;
+		padding-right: 180px;
+	}
+
+	.growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}		
+
+	.players {
+		position: relative;
+	}
+	
+	.players-images {
+		position: absolute;
+		top: 6px;
+		left: 45%; 
+	}
+	
+	.players-image {
+		width: 991px;
+	}
+
+	.players-header {
+		padding-right: 50%;
+		padding-top: 100px;
+		padding-bottom: 10px;
+		padding-left: 180px;
+	}
+
+	.players-title {
+		font-size: 80px;
+	}
+	
+	.players-conection-box {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-conection-header {
+		width: 100%;
+	}
+
+	.players-conection-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+		font-size: 18px;
+	}
+
+	.players-con-header {
+		box-sizing: border-box;
+	}
+
+	.players-conection-title {
+		font-size: 36px;
+	}
+
+	.players-conection-text {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+	.players-collaboration-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-growth-box {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+		padding-left: 180px;
+		padding-right: 50%;
+	}
+
+	.players-growth-number {	
+		margin-right: 10px;
+		padding-bottom: 5px;
+	
+		font-size: 18px;
+	}
+		
+	.active {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.active-image {
+		box-sizing: border-box;
+		width: 1500px;
+	}
+
+	.active-number {
+		left: px;
+		top: calc(50% - 82px);
+		z-index: 1;
+	}
+	
+	.number {
+		width: 165px;
+		height: 165px;
+	}
+
+	.number-text {
+		font-size: 24px;
+	}
+
+	.active-information {
+		box-sizing: border-box;
+		width: 100%;
+	
+		padding-top: 80px;
+		padding-left: 130px;
+		padding-right: 130px;
+	}
+	
+	.active-title {
+		font-size: 80px;
+	}
+	
+	.active-text{
+		margin-top: 50px;
+		font-size: 24px;
+	}	
+	
+	/*Подвал*/
+	.footer {
+		background-image: url(../IMG/game_1920.jpg);
+	}	
+	
+	.footer-container {
+		width: 88%;
+		padding-top: 100px;
+		padding-bottom: 12px;
+	}
+	
+	.box-app {
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+		width: 870px;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.logos {
+		width: 135px;
+		height: 135px;
+	}
+	
+	.logo-app {
+		top: calc(50% - 45px);
+		left: calc(50% - 45px);
+	
+		width: 90px;
+		height: 90px;
+	}
+
+	.link-app-text {
+		box-sizing: border-box;
+		width: 675px;
+	}
+	
+	.name-app {
+		font-size: 80px;
+	}
+	
+	.text-app {
+		font-size: 30px;
+	}	
+
+	.footer__logo-box {	
+		margin-top: 75px;
+	}
+}
