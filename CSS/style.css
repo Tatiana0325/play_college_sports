@@ -879,7 +879,7 @@
 	.players-images {
 		position: absolute;
 		top: 5%;
-		left: 35%; 
+		left: calc(100% - 501px); 
 	}
 	
 	.players-image {
@@ -962,7 +962,7 @@
 
 	.active-number {
 		left: 6.25%;
-		top: calc(67% - 35px);;
+		top: calc(67% - 25px);;
 		z-index: 1;
 	}
 
@@ -1068,6 +1068,7 @@
 	}	
 
 	.title {
+		width: 70%;
 		font-size: 90px;
 	}
 
@@ -1113,13 +1114,13 @@
 	
 	.athlets-images {
 		position: absolute;
-		top: 20px;
-		left: 15%; 
+		top: 8%;
+		left: 1%; 
 		z-index: 1;
 	}
 	
 	.athlets-image {
-		width: 590px;
+		width: 80%;
 	}
 
 	.athlets-header {
@@ -1191,12 +1192,12 @@
 	
 	.players-images {
 		position: absolute;
-		top: 6px;
-		left: 45%; 
+		top: 5%;
+		left: 40%; 
 	}
 	
 	.players-image {
-		width: 991px;
+		width: 100%;
 	}
 
 	.players-header {
@@ -1276,7 +1277,7 @@
 	
 	.active-image {
 		box-sizing: border-box;
-		width: 960px;
+		width: 100%;
 	}
 
 	.active-number {
@@ -1296,7 +1297,7 @@
 
 	.active-information {
 		box-sizing: border-box;
-		width: 100%;
+		width: 66%;
 	
 		padding-top: 80px;
 		padding-left: 130px;
@@ -1367,7 +1368,7 @@
 @media (min-width: 1921px) {
 /*Шапка сайта*/  
 	.header {
-		background-image: url(../IMG/football_1920.jpg);
+		background-image: url(../IMG/football_1280.jpg);
 	}
 
 	.container { 
@@ -1382,20 +1383,19 @@
 	}
 
 	.box__title {
-		display: block;
-		text-align: center;
-		margin-top: 300px;
+		margin-top: 288px;
 		width: 100%;
 	}	
 
 	.title {
+		width: 70%;
 		font-size: 90px;
 	}
 
 	.box-download {
 		display: flex;
-		margin-top: 500px;
-		width: 645px;
+		margin-top: 285px;
+		width: 672px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -1403,7 +1403,7 @@
 	.download {
 		display: block;
 		box-sizing: border-box;
-		width: 500px;
+		width: 300px;
 		border-radius: 50px;
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -1434,13 +1434,13 @@
 	
 	.athlets-images {
 		position: absolute;
-		top: 20px;
-		left: 15%; 
+		top: 8%;
+		left: 1%; 
 		z-index: 1;
 	}
 	
 	.athlets-image {
-		width: 590px;
+		width: 80%;
 	}
 
 	.athlets-header {
@@ -1512,12 +1512,12 @@
 	
 	.players-images {
 		position: absolute;
-		top: 6px;
-		left: 45%; 
+		top: 5%;
+		left: 40%; 
 	}
 	
 	.players-image {
-		width: 991px;
+		width: 100%;
 	}
 
 	.players-header {
@@ -1587,17 +1587,21 @@
 		
 	.active {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+	}
+
+	.find-box {
+		order: 1;
 	}
 	
 	.active-image {
 		box-sizing: border-box;
-		width: 1500px;
+		width: 100%;
 	}
 
 	.active-number {
-		left: px;
+		left: calc(50% - 82px);
 		top: calc(50% - 82px);
 		z-index: 1;
 	}
@@ -1613,7 +1617,7 @@
 
 	.active-information {
 		box-sizing: border-box;
-		width: 100%;
+		width: 66%;
 	
 		padding-top: 80px;
 		padding-left: 130px;
@@ -1631,13 +1635,13 @@
 	
 	/*Подвал*/
 	.footer {
-		background-image: url(../IMG/game_1920.jpg);
+		background-image: url(../IMG/game_1280.jpg);
 	}	
 	
 	.footer-container {
 		width: 88%;
-		padding-top: 100px;
-		padding-bottom: 12px;
+		padding-top: 220px;
+		padding-bottom: 50px;
 	}
 	
 	.box-app {
