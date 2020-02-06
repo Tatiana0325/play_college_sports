@@ -735,6 +735,8 @@
 @media (min-width: 641px) and (max-width: 960px) {
 	/*Шапка сайта*/  
 	.header {
+		width: 100%;
+		margin: 0;
 		background-image: url(../IMG/football_767.jpg);
 	}
 
@@ -790,7 +792,8 @@
 	}
 	/*Основной блол*/
 	.main-box {
-		width: 100%;		
+		width: 100%;
+		margin: 0;
 	}
 	
 	.athlets {
