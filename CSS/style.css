@@ -42,7 +42,6 @@
 
 .container { 
 	position: relative;
-	width: 88%;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
@@ -419,6 +418,7 @@
 
 	.container { 
 		box-sizing: border-box;
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 	
@@ -443,7 +443,7 @@
 
 	.box-download {
 		margin-top: 85px;
-		width: 40%;
+		width: 280px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -737,7 +737,8 @@
 		background-image: url(../IMG/football_767.jpg);
 	}
 
-	.container { 	
+	.container { 
+		width: 88%;	
 		padding-top: 30px;
 		padding-bottom: 82px;
 	}
@@ -759,7 +760,7 @@
 	.box-download {
 		display: flex;
 		margin-top: 305px;
-		width: 80%;
+		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -789,8 +790,7 @@
 	}
 	/*Основной блол*/
 	.main-box {
-		width: 100%;
-		margin: 0;
+		width: 100%;		
 	}
 	
 	.athlets {
