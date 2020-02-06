@@ -12,10 +12,10 @@
 	font-style: normal;
 }
 
-/* * {
+* {
 	margin: 0;
 	padding: 0;
-}*/
+}
 
 .header {
 	background-repeat: no-repeat;
@@ -735,9 +735,7 @@
 @media (min-width: 641px) and (max-width: 960px) {
 	/*Шапка сайта*/  
 	.header {
-		width: 100%;
-		margin: 0;
-		background-image: url(../IMG/football_767.jpg);
+		background-image: url(../IMG/football_1920.jpg);
 	}
 
 	.container { 	
