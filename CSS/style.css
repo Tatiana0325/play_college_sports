@@ -19,7 +19,6 @@
 
 .header {
 	background-repeat: no-repeat;
-	width: 100%;
 	background-position: center center;
 	background-size: cover;
 	background-color: #cccccc;
@@ -444,7 +443,7 @@
 
 	.box-download {
 		margin-top: 85px;
-		width: 280px;
+		width: 40%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -735,7 +734,7 @@
 @media (min-width: 641px) and (max-width: 960px) {
 	/*Шапка сайта*/  
 	.header {
-		background-image: url(../IMG/football_1920.jpg);
+		background-image: url(../IMG/football_767.jpg);
 	}
 
 	.container { 	
